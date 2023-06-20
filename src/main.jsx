@@ -5,7 +5,7 @@ import './index.css'
 
 
 //conf router
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
 
 //components
 import Home from './routes/Home.jsx';
@@ -20,35 +20,36 @@ import ContactDetails from './routes/ContactDetails.jsx';
 
 
 const router = createBrowserRouter([
-{
-  path: "/",
-  element: <App />,
+  {
+    path: "/",
+    element: <App />,
 
-  // 3- pagina de erro
-  errorElement: <ErrorPage/>,
-  children: [
-       {
-         path: "/",
-         element: <Home />,
-       },
-       {
-         path: "contact",
-         element: <Contact />,      
-        },
-        // 5- nested routes - identificador unico
-        {
-          path: "/contact/:id",
-          element: <ContactDetails />,
-        },
-      ],
-    },
-  
-  ]);
+    // 3- pagina de erro
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
+      },
+      // 5- nested routes - identificador unico 
+      {
+        path: "/contact/:id",
+        element: <ContactDetails />,
+      },
 
+      // navigate para paginas inexistentes
+      {
+        path: "oldcontact",
+        element: <Navigate to="/contact" />
+      }
+    ],
+  },
 
-
-
-
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

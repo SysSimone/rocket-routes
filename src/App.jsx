@@ -9,12 +9,12 @@ import { Outlet } from 'react-router-dom';
 // 4- navegando entre paginas
 import Navbar from './components/Navbar';
 
-function App() { 
+function App() {
   return (
     <div className='App'>
       <Navbar />
       <h1> React Router</h1>
-      <Outlet/>
+      <Outlet />
       <p>footer</p>
     </div>
   );
