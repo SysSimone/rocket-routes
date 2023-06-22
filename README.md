@@ -7,4 +7,15 @@ Cada rota é uma página, rota é apenas a nomenclatura usada. Permite que o nos
 
 
 sobre SPA link 
+
+
+
 https://www.google.com/search?cs=0&q=Single-page+application&sa=X&ved=2ahUKEwjE6dPa1dX_AhX7q5UCHV4HDEYQyq8IKAB6BAgBEAI
+
+
+
+video código
+
+
+
+https://www.youtube.com/watch?v=7b42lVMdEjE
