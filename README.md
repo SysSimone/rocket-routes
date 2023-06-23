@@ -1,3 +1,8 @@
+
+![pagina-rotas](https://github.com/SysSimone/rocket-routes/assets/75712842/1e5ca143-2137-457b-80de-fec8d36fa27a)
+![p](https://github.com/SysSimone/rocket-routes/assets/75712842/9750cec9-d86c-4380-9a55-ca2ca11e7fdb)
+![cl](https://github.com/SysSimone/rocket-routes/assets/75712842/bfa85763-3be8-4be4-a30b-a921132159af)
+![pg](https://github.com/SysSimone/rocket-routes/assets/75712842/9d4cb9e3-c02e-40a2-8a1e-250d6940a5b2)
 # rocket-routes
 React: desenvolvendo em React Router com  Vite - JavaScript
 
